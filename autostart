@@ -1,0 +1,9 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@lxterminal -e "/home/pi/my_app.sh"
+@xset s off
+@xset -dpms
+@xset s noblank
+point-rpi
+@sh /etc/X11/Xsession.d/xinput_calibrator_pointercal
